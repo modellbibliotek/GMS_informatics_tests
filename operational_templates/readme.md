@@ -1,0 +1,1 @@
+This directory contains .OPT (operational template) files htat can be exported from e.g. https://ckm.openehr.org/ckm/ or https://tools.openehr.org/designer/ and then imported into EHR systems or GUI/Form-building tools like https://tools.better.care/sandbox/studio/
