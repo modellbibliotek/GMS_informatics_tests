@@ -1,5 +1,5 @@
-# Exempelqueries RD (Rare Diseases)
-https://genomicmedicine.se/en/rare-diseases/
+# Exempelqueries
+https://genomicmedicine.se/
  
 ## Forskning
 
