@@ -3,7 +3,7 @@ To be able to work with "Molekulargenetischer Befund" https://ckm.highmed.org/ck
 
 ### From the international CKM https://ckm.openehr.org/
 * openEHR-EHR-SECTION.problem_list.v0 https://ckm.openehr.org/ckm/archetypes/1013.1.610
-* archetypeId=openEHR-EHR-CLUSTER.specimen_preparation.v0 https://ckm.openehr.org/ckm/archetypes/1013.1.358
+* openEHR-EHR-CLUSTER.specimen_preparation.v0 https://ckm.openehr.org/ckm/archetypes/1013.1.358
 * openEHR-EHR-CLUSTER.tnm.v1 https://ckm.openehr.org/ckm/archetypes/1013.1.2413
 * openEHR-EHR-CLUSTER.tnm-pathological.v1 https://ckm.openehr.org/ckm/archetypes/1013.1.4191
 * openEHR-EHR-EVALUATION.absence.v2 https://ckm.openehr.org/ckm/archetypes/1013.1.4213
