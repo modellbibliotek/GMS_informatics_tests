@@ -25,8 +25,6 @@ Har denna variant hittats hos något annat sjukhus? Hur hanterades varianten hos
 * Ge mig alla personnummer där personer hade den här diagnosen.
 * Hur många utbrott fanns av den här stammen under 2000.
 
-För att söka fram data är tanken att använda HCI, för indexering. Exempelvis kanske man vill söka på en enskild variant och få tillbaka alla dokument där den förekommer. SQL används när någon vill ställa querys via HCI.
-
 ## AQL
 Exempel på frågor beskrivna med openEHRs frågespråk AQL (Archetype Query Language)
 * Lite lästips om AQL:
