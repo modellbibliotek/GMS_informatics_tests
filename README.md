@@ -8,6 +8,7 @@ For tool info & setup, the same instructions as used at https://github.com/model
 
 More details in files:
 * Use-cases and queries https://github.com/modellbibliotek/GMS_informatics_tests/blob/master/queries.md
+* Experiment iteration 1: https://github.com/modellbibliotek/GMS_informatics_tests/blob/master/iteration1.md
 * ...
 
 ## openEHR & HL7 FHIR genomics background material
