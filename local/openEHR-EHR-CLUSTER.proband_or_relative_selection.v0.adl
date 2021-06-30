@@ -1,0 +1,72 @@
+archetype (adl_version=1.4; uid=400c9c05-fcf5-47bf-8845-75b51ecbef50)
+	openEHR-EHR-CLUSTER.proband_or_relative_selection.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["name"] = <"Erik Sundvall">
+		["organisation"] = <"Region Östergötland & Linköping University, Sweden">
+		["email"] = <"erik.sundvall@regionostergotland.se">
+		["date"] = <"2021-06-30">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"fcdddcda28127375e0ab685b0ad6438f">
+		["build_uid"] = <"8b96d391-9b42-396c-9033-9aa439dfbdbe">
+	>
+
+definition
+	CLUSTER[at0000] matches {    -- Proband or relative selection
+		items cardinality matches {1..*; unordered} matches {
+			ELEMENT[at0003] occurrences matches {0..1} matches {    -- Role in investigation
+				value matches {
+					DV_CODED_TEXT matches {
+						defining_code matches {
+							[local::
+							at0004,    -- Proband
+							at0005]    -- Relative
+						}
+					}
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"Proband or relative selection">
+					description = <"Proband or relative selection">
+				>
+				["at0003"] = <
+					text = <"Role in investigation">
+					description = <"">
+				>
+				["at0004"] = <
+					text = <"Proband">
+					description = <"Subject is proband in this investigation">
+				>
+				["at0005"] = <
+					text = <"Relative">
+					description = <"Subject is a relative (not the proband) in this investigation">
+				>
+			>
+		>
+	>
