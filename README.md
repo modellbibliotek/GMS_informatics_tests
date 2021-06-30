@@ -1,6 +1,6 @@
 # GMS_informatics_tests
 
-openEHR templates & archetypes + termonology/ontology for experiments in ths subproject "Skalbara informatiklösningar" in https://genomicmedicine.se/
+openEHR templates & archetypes + termonology/ontology for experiments in "Skalbara informatiklösningar" (Scalable solutions for informatics) a subproject https://genomicmedicine.se/
 
 Current experimentation is preformed by Ulrika Hermansson (VGR), Nina Norgren (UMU), Carina Sandell (RÖ) & Erik Sundvall (LiU + RÖ (in August Karolinska))
 
