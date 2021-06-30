@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "5.0.0",
+      "sem_ver" : "6.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "ebaa79856914bb0429176949a25a03ae",
+      "MD5-CAM-1.0.1" : "1697c61338fb7a66246dd394f39b6a98",
       "PARENT:MD5-CAM-1.0.1" : "B8AD0C7EB492491CE6F7968C1AFFB40C"
     },
     "details" : {
@@ -1180,7 +1180,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "fcdddcda28127375e0ab685b0ad6438f"
+        "PARENT:MD5-CAM-1.0.1" : "fb51e89e27b65132e3ecddbe4783c859"
       },
       "details" : { }
     },
@@ -1201,7 +1201,14 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { }
+        "en" : {
+          "at0004" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0004",
+            "text" : "Proband",
+            "description" : "Subject is proband in this investigation"
+          }
+        }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
