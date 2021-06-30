@@ -1,7 +1,7 @@
 
-FÖr att kunna jobba med https://ckm.highmed.org/ckm/templates/1246.169.236/export behövdes några extra arketyper importeras
+För att kunna jobba med https://ckm.highmed.org/ckm/templates/1246.169.236/export behövdes några extra arketyper importeras
 
-## Tyska HiGHmed https://ckm.highmed.org/
+### Tyska HiGHmed https://ckm.highmed.org/
  Molekulargenetischer Befund.oet
 No such concept: archetypeId=openEHR-EHR-CLUSTER.general_sequencing_result_parameter.v0
 
