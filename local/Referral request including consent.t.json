@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "0.1.0",
+      "sem_ver" : "0.2.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "da5a5e71690ea058d1e3090fe85f1dcc",
+      "MD5-CAM-1.0.1" : "52c0e38c260edc70ee85621e3739a4b4",
       "PARENT:MD5-CAM-1.0.1" : "B8AD0C7EB492491CE6F7968C1AFFB40C"
     },
     "details" : {
@@ -72,6 +72,7 @@
           },
           "codeString" : "en"
         },
+        "purpose" : "Referral including consent and optionally also family/pedigree info.",
         "keywords" : [ ],
         "originalResourceUri" : { },
         "otherDetails" : { }
@@ -161,7 +162,7 @@
         "at0000.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0000.1",
-          "text" : "Referral request including consent",
+          "text" : "Referral request iteration 1",
           "description" : "Document sent from one treating healthcare provider or organisation to another, for the purpose of requesting advice, a service or transfer of care."
         }
       },
@@ -215,7 +216,7 @@
   "rmName" : "openehr",
   "rmRelease" : "1.1.0",
   "generated" : true,
-  "templateId" : "Referral request including consent",
+  "templateId" : "Referral request iteration 1",
   "otherMetaData" : { },
   "templateOverlays" : [ {
     "@type" : "TEMPLATE_OVERLAY",
