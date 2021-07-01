@@ -67,3 +67,4 @@ Digitize HPO phenotype selections from e.g.
 * Page 2 of http://analysportalen-labmedicin.skane.se/pics/Labmedicin/Verksamhetsomr%E5den/Klinisk%20genetik/Analysportalen/Remiss%20helgenomsekvensering%20(WGS)%20-%20konstitutionell%20utredning.pdf
 * Checklista Klinisk genetik https://sahlgrenska-klinkem-analyser.vgregion.se/KGAP0173.pdf 
 
+* Add a small archetype to Service Request extension slot to mark requst as beloning to a family investigation (trio etc) and include connecting proband id request - That can replace the current proband vs single archetype
