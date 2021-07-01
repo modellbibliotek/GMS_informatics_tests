@@ -26,7 +26,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"4def5c61e18c01677227f14d696cd0a4">
+		["MD5-CAM-1.0.1"] = <"983ff544264d00ae79f8ba9ace961d9f">
 		["build_uid"] = <"8b96d391-9b42-396c-9033-9aa439dfbdbe">
 	>
 
@@ -45,7 +45,7 @@ definition
 					}
 				}
 			}
-			ELEMENT[at0009] occurrences matches {0..1} matches {    -- Relation to proband
+			ELEMENT[at0009] occurrences matches {0..*} matches {    -- Relation to proband
 				value matches {
 					DV_CODED_TEXT matches {*}
 				}
