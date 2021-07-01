@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "15.0.0",
+      "sem_ver" : "16.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "051f7a23cb8d2c000e832e61815d8e1a",
+      "MD5-CAM-1.0.1" : "8e784178e88953c1093f33d1c58da248",
       "PARENT:MD5-CAM-1.0.1" : "B8AD0C7EB492491CE6F7968C1AFFB40C"
     },
     "details" : {
@@ -796,7 +796,7 @@
                     "children" : [ {
                       "@type" : "C_STRING",
                       "rmTypeName" : "STRING",
-                      "constraint" : [ "clinical", "research", "research and clinical" ]
+                      "constraint" : [ "research concent", "/.+/" ]
                     } ]
                   } ],
                   "attributeTuples" : [ ]
@@ -1274,7 +1274,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "dee313f98ac210401d5e165b38961437"
+        "PARENT:MD5-CAM-1.0.1" : "2cafd45e324e1ea3c816063f89d0d2df"
       },
       "details" : {
         "en" : {
@@ -2389,7 +2389,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "dee313f98ac210401d5e165b38961437"
+        "PARENT:MD5-CAM-1.0.1" : "2cafd45e324e1ea3c816063f89d0d2df"
       },
       "details" : {
         "en" : {
