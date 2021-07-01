@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "14.0.0",
+      "sem_ver" : "15.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "c7d171601c777226155ddee891c3da1a",
+      "MD5-CAM-1.0.1" : "051f7a23cb8d2c000e832e61815d8e1a",
       "PARENT:MD5-CAM-1.0.1" : "B8AD0C7EB492491CE6F7968C1AFFB40C"
     },
     "details" : {
@@ -3121,18 +3121,22 @@
                   "@type" : "C_TERMINOLOGY_CODE",
                   "rmTypeName" : "TERMINOLOGY_CODE",
                   "terminologyId" : {
-                    "value" : "terminology:omim"
+                    "value" : "terminology:hp"
                   },
                   "constraint" : [ ],
-                  "selectedTerminologies" : [ "terminology:omim" ],
+                  "selectedTerminologies" : [ "terminology:hp" ],
                   "includedExternalTerminologyCodes" : [ {
-                    "terminologyId" : "terminology:omim",
-                    "code" : "614022",
-                    "value" : "Atrial Fibrillation, Familial, 10"
+                    "terminologyId" : "terminology:hp",
+                    "code" : "0032524",
+                    "value" : "Long thumb"
                   }, {
-                    "terminologyId" : "terminology:omim",
-                    "code" : "600309",
-                    "value" : "Atrioventricular septal defect 3"
+                    "terminologyId" : "terminology:hp",
+                    "code" : "0001238",
+                    "value" : "Slender finger"
+                  }, {
+                    "terminologyId" : "terminology:hp",
+                    "code" : "0000520",
+                    "value" : "Proptosis"
                   } ]
                 } ]
               } ],
@@ -3182,28 +3186,28 @@
                   "@type" : "C_TERMINOLOGY_CODE",
                   "rmTypeName" : "TERMINOLOGY_CODE",
                   "terminologyId" : {
-                    "value" : "terminology:hpo"
+                    "value" : "terminology:hp"
                   },
                   "constraint" : [ ],
-                  "selectedTerminologies" : [ "terminology:hpo" ],
+                  "selectedTerminologies" : [ "terminology:hp" ],
                   "includedExternalTerminologyCodes" : [ {
-                    "terminologyId" : "terminology:hpo",
+                    "terminologyId" : "terminology:hp",
                     "code" : "0012825",
                     "value" : "Mild"
                   }, {
-                    "terminologyId" : "terminology:hpo",
+                    "terminologyId" : "terminology:hp",
                     "code" : "0012826",
                     "value" : "Moderate"
                   }, {
-                    "terminologyId" : "terminology:hpo",
+                    "terminologyId" : "terminology:hp",
                     "code" : "0012827",
                     "value" : "Borderline"
                   }, {
-                    "terminologyId" : "terminology:hpo",
+                    "terminologyId" : "terminology:hp",
                     "code" : "0012828",
                     "value" : "Severe"
                   }, {
-                    "terminologyId" : "terminology:hpo",
+                    "terminologyId" : "terminology:hp",
                     "code" : "0012829",
                     "value" : "Profound"
                   } ]
