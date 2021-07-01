@@ -17,7 +17,15 @@ Father	|a02b734d-e027-4304-ba1b-92be06077c4c	|1448272|MALE	|1984-08-01 |20210701
 *) In iteration 1 the SubjectID is reused as phenopacket (person) identifier for simplicity but it should be replaced by a randomized identifier to improve anonymity in later experiment iterations 
 
 Family ID = 123456
- 
+
+Test data for healthcare staff
+https://docs.google.com/spreadsheets/d/1Av2tKe_unnk2um_XRVplAVyL47acJX7Y/edit#gid=153252209
+Pattern for HSA ID in Region Östergötland: SE2321000040-TEST 
+
+
+HSA-ID|Placerad under centrum	|Placerad under verksamhetsenhet	|Placerad under organisationsenhet	|Namn	|Personnummer	|Användarnamn	|Startdatum	|Slutdatum	|Legitimation	|HSA Yrkesroll |Titel	|Medicinsk titel	|Befattning AID	|Efternamn	|Mellannamn	|Tilltalsnamn	|Gruppförskrivarkod	|E-post
+---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
+SE2321000040-4C1M |Primärvårdscentrum	|Vårdcentralen Tannefors |Gemensamt	|Erika Nilsson	|195002192382	|Lakare15	|2005-04-01	|	|Läkare	|Läkare	|distriktsläkare	|distriktsläkare	|201011	|Nilsson	| 	|Erika	|5922158	|Erika.Nilsson@test.lio.se
 
 ## Templates
 
