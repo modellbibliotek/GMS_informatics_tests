@@ -9,10 +9,10 @@ language
 
 description
 	original_author = <
-		["date"] = <"2021-06-30">
 		["name"] = <"Erik Sundvall">
 		["organisation"] = <"Region Östergötland & Linköping University, Sweden">
 		["email"] = <"erik.sundvall@regionostergotland.se">
+		["date"] = <"2021-07-01">
 	>
 	lifecycle_state = <"unmanaged">
 	details = <
@@ -26,7 +26,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"fb51e89e27b65132e3ecddbe4783c859">
+		["MD5-CAM-1.0.1"] = <"dee313f98ac210401d5e165b38961437">
 		["build_uid"] = <"8b96d391-9b42-396c-9033-9aa439dfbdbe">
 	>
 
@@ -38,9 +38,9 @@ definition
 					DV_CODED_TEXT matches {
 						defining_code matches {
 							[local::
-							at0004,    -- Proband in family analysis
+							at0004,    -- Proband
 							at0005,    -- Relative
-							at0006]    -- Proband in individual analysis
+							at0006]    -- Single subject
 						}
 					}
 				}
@@ -61,16 +61,16 @@ ontology
 					description = <"">
 				>
 				["at0004"] = <
-					text = <"Proband in family analysis">
-					description = <"Subject is proband in this investigation">
+					text = <"Proband">
+					description = <"Subject is proband in trio or other family investigation">
 				>
 				["at0005"] = <
 					text = <"Relative">
 					description = <"Subject is a relative (not the proband) in this investigation">
 				>
 				["at0006"] = <
-					text = <"Proband in individual analysis">
-					description = <"">
+					text = <"Single subject">
+					description = <"Subject in a single subject investigation">
 				>
 			>
 		>
