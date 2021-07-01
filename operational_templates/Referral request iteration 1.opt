@@ -17,7 +17,7 @@
         <other_details id="original_namespace"></other_details>
         <other_details id="original_publisher"></other_details>
         <other_details id="custodian_namespace"></other_details>
-        <other_details id="sem_ver">10.1.0</other_details>
+        <other_details id="sem_ver">12.0.0</other_details>
         <other_details id="build_uid"></other_details>
         <other_details id="MD5-CAM-1.0.1">2edc7e56a8c55cedb7c133a0b98cf4e1</other_details>
         <other_details id="PARENT:MD5-CAM-1.0.1">B8AD0C7EB492491CE6F7968C1AFFB40C</other_details>
@@ -512,6 +512,42 @@
             </children>
             <children xsi:type="C_COMPLEX_OBJECT">
                 <rm_type_name>DV_TEXT</rm_type_name>
+                <occurrences>
+                    <lower_included>true</lower_included>
+                    <upper_included>true</upper_included>
+                    <lower_unbounded>false</lower_unbounded>
+                    <upper_unbounded>false</upper_unbounded>
+                    <lower>1</lower>
+                    <upper>1</upper>
+                </occurrences>
+                <node_id></node_id>
+            </children>
+        </attributes>
+    </children>
+    <children xsi:type="C_COMPLEX_OBJECT">
+        <rm_type_name>ELEMENT</rm_type_name>
+        <occurrences>
+            <lower_included>true</lower_included>
+            <upper_included>true</upper_included>
+            <lower_unbounded>false</lower_unbounded>
+            <upper_unbounded>false</upper_unbounded>
+            <lower>0</lower>
+            <upper>1</upper>
+        </occurrences>
+        <node_id>at0040</node_id>
+        <attributes xsi:type="C_SINGLE_ATTRIBUTE">
+            <rm_attribute_name>value</rm_attribute_name>
+            <existence>
+                <lower_included>true</lower_included>
+                <upper_included>true</upper_included>
+                <lower_unbounded>false</lower_unbounded>
+                <upper_unbounded>false</upper_unbounded>
+                <lower>0</lower>
+                <upper>1</upper>
+            </existence>
+            <match_negated>false</match_negated>
+            <children xsi:type="C_COMPLEX_OBJECT">
+                <rm_type_name>DV_DATE_TIME</rm_type_name>
                 <occurrences>
                     <lower_included>true</lower_included>
                     <upper_included>true</upper_included>
@@ -1196,11 +1232,62 @@
                         </interval>
                     </cardinality>
                 </attributes>
+                <attributes xsi:type="C_SINGLE_ATTRIBUTE">
+                    <rm_attribute_name>name</rm_attribute_name>
+                    <existence>
+                        <lower_included>true</lower_included>
+                        <upper_included>true</upper_included>
+                        <lower_unbounded>false</lower_unbounded>
+                        <upper_unbounded>false</upper_unbounded>
+                        <lower>1</lower>
+                        <upper>1</upper>
+                    </existence>
+                    <match_negated>false</match_negated>
+                    <children xsi:type="C_COMPLEX_OBJECT">
+                        <rm_type_name>DV_TEXT</rm_type_name>
+                        <occurrences>
+                            <lower_included>true</lower_included>
+                            <upper_included>true</upper_included>
+                            <lower_unbounded>false</lower_unbounded>
+                            <upper_unbounded>false</upper_unbounded>
+                            <lower>1</lower>
+                            <upper>1</upper>
+                        </occurrences>
+                        <node_id></node_id>
+                        <attributes xsi:type="C_SINGLE_ATTRIBUTE">
+                            <rm_attribute_name>value</rm_attribute_name>
+                            <existence>
+<lower_included>true</lower_included>
+<upper_included>true</upper_included>
+<lower_unbounded>false</lower_unbounded>
+<upper_unbounded>false</upper_unbounded>
+<lower>1</lower>
+<upper>1</upper>
+                            </existence>
+                            <match_negated>false</match_negated>
+                            <children xsi:type="C_PRIMITIVE_OBJECT">
+<rm_type_name>STRING</rm_type_name>
+<occurrences>
+    <lower_included>true</lower_included>
+    <upper_included>true</upper_included>
+    <lower_unbounded>false</lower_unbounded>
+    <upper_unbounded>false</upper_unbounded>
+    <lower>1</lower>
+    <upper>1</upper>
+</occurrences>
+<node_id></node_id>
+<item xsi:type="C_STRING">
+    <list>Proband</list>
+</item>
+                            </children>
+                        </attributes>
+                    </children>
+                </attributes>
                 <archetype_id>
                     <value>openEHR-EHR-CLUSTER.pp_phenopacket_framework.v0</value>
                 </archetype_id>
                 <term_definitions code="at0000">
-                    <items id="text">Phenopacket framework</items>
+                    <items id="text">Proband</items>
                     <items id="description">Phenotypic framework</items>
                 </term_definitions>
                 <term_definitions code="at0002">
@@ -2042,6 +2129,31 @@
     <upper>1</upper>
 </occurrences>
 <node_id></node_id>
+<attributes xsi:type="C_SINGLE_ATTRIBUTE">
+    <rm_attribute_name>defining_code</rm_attribute_name>
+    <existence>
+        <lower_included>true</lower_included>
+        <upper_included>true</upper_included>
+        <lower_unbounded>false</lower_unbounded>
+        <upper_unbounded>false</upper_unbounded>
+        <lower>1</lower>
+        <upper>1</upper>
+    </existence>
+    <match_negated>false</match_negated>
+    <children xsi:type="C_CODE_REFERENCE">
+        <rm_type_name>CODE_PHRASE</rm_type_name>
+        <occurrences>
+            <lower_included>true</lower_included>
+            <upper_included>true</upper_included>
+            <lower_unbounded>false</lower_unbounded>
+            <upper_unbounded>false</upper_unbounded>
+            <lower>0</lower>
+            <upper>1</upper>
+        </occurrences>
+        <node_id></node_id>
+        <referenceSetUri>terminology:phenotypeHF</referenceSetUri>
+    </children>
+</attributes>
                             </children>
                         </attributes>
                     </children>
@@ -2379,9 +2491,6 @@
                 <archetype_id>
                     <value>openEHR-EHR-CLUSTER.pp_phenotypic_feature.v0</value>
                 </archetype_id>
-                <template_id>
-                    <value>Referral request iteration 1</value>
-                </template_id>
                 <term_definitions code="at0000">
                     <items id="text">pp_phenotypic_feature_with_terminology</items>
                     <items id="description">Phenotypic feature</items>
@@ -2603,6 +2712,31 @@ For example: "HP::0003577|Congenital onset".</items>
     <upper>1</upper>
 </occurrences>
 <node_id></node_id>
+<attributes xsi:type="C_SINGLE_ATTRIBUTE">
+    <rm_attribute_name>defining_code</rm_attribute_name>
+    <existence>
+        <lower_included>true</lower_included>
+        <upper_included>true</upper_included>
+        <lower_unbounded>false</lower_unbounded>
+        <upper_unbounded>false</upper_unbounded>
+        <lower>1</lower>
+        <upper>1</upper>
+    </existence>
+    <match_negated>false</match_negated>
+    <children xsi:type="C_CODE_REFERENCE">
+        <rm_type_name>CODE_PHRASE</rm_type_name>
+        <occurrences>
+            <lower_included>true</lower_included>
+            <upper_included>true</upper_included>
+            <lower_unbounded>false</lower_unbounded>
+            <upper_unbounded>false</upper_unbounded>
+            <lower>0</lower>
+            <upper>1</upper>
+        </occurrences>
+        <node_id></node_id>
+        <referenceSetUri>terminology:ICD10</referenceSetUri>
+    </children>
+</attributes>
                             </children>
                         </attributes>
                     </children>
@@ -3695,7 +3829,7 @@ For example: "HP::0003577|Congenital onset".</items>
     </existence>
     <match_negated>false</match_negated>
     <children xsi:type="C_COMPLEX_OBJECT">
-        <rm_type_name>DV_TEXT</rm_type_name>
+        <rm_type_name>DV_CODED_TEXT</rm_type_name>
         <occurrences>
             <lower_included>true</lower_included>
             <upper_included>true</upper_included>
@@ -3705,6 +3839,31 @@ For example: "HP::0003577|Congenital onset".</items>
             <upper>1</upper>
         </occurrences>
         <node_id></node_id>
+        <attributes xsi:type="C_SINGLE_ATTRIBUTE">
+            <rm_attribute_name>defining_code</rm_attribute_name>
+            <existence>
+                <lower_included>true</lower_included>
+                <upper_included>true</upper_included>
+                <lower_unbounded>false</lower_unbounded>
+                <upper_unbounded>false</upper_unbounded>
+                <lower>1</lower>
+                <upper>1</upper>
+            </existence>
+            <match_negated>false</match_negated>
+            <children xsi:type="C_CODE_REFERENCE">
+                <rm_type_name>CODE_PHRASE</rm_type_name>
+                <occurrences>
+                    <lower_included>true</lower_included>
+                    <upper_included>true</upper_included>
+                    <lower_unbounded>false</lower_unbounded>
+                    <upper_unbounded>false</upper_unbounded>
+                    <lower>0</lower>
+                    <upper>1</upper>
+                </occurrences>
+                <node_id></node_id>
+                <referenceSetUri>terminology:ICD10</referenceSetUri>
+            </children>
+        </attributes>
     </children>
 </attributes>
                             </children>
@@ -3766,7 +3925,7 @@ For example: "HP::0003577|Congenital onset".</items>
     </existence>
     <match_negated>false</match_negated>
     <children xsi:type="C_COMPLEX_OBJECT">
-        <rm_type_name>DV_TEXT</rm_type_name>
+        <rm_type_name>DV_CODED_TEXT</rm_type_name>
         <occurrences>
             <lower_included>true</lower_included>
             <upper_included>true</upper_included>
@@ -3776,6 +3935,31 @@ For example: "HP::0003577|Congenital onset".</items>
             <upper>1</upper>
         </occurrences>
         <node_id></node_id>
+        <attributes xsi:type="C_SINGLE_ATTRIBUTE">
+            <rm_attribute_name>defining_code</rm_attribute_name>
+            <existence>
+                <lower_included>true</lower_included>
+                <upper_included>true</upper_included>
+                <lower_unbounded>false</lower_unbounded>
+                <upper_unbounded>false</upper_unbounded>
+                <lower>1</lower>
+                <upper>1</upper>
+            </existence>
+            <match_negated>false</match_negated>
+            <children xsi:type="C_CODE_REFERENCE">
+                <rm_type_name>CODE_PHRASE</rm_type_name>
+                <occurrences>
+                    <lower_included>true</lower_included>
+                    <upper_included>true</upper_included>
+                    <lower_unbounded>false</lower_unbounded>
+                    <upper_unbounded>false</upper_unbounded>
+                    <lower>0</lower>
+                    <upper>1</upper>
+                </occurrences>
+                <node_id></node_id>
+                <referenceSetUri>terminology:bodySite</referenceSetUri>
+            </children>
+        </attributes>
     </children>
 </attributes>
                             </children>
@@ -7054,7 +7238,7 @@ If the anatomical location is included in the Problem/diagnosis name via precoor
                 </occurrences>
                 <node_id></node_id>
                 <item xsi:type="C_STRING">
-                    <list>Other patient information handed to subject</list>
+                    <list>Other patient information given to subject</list>
                 </item>
             </children>
         </attributes>
@@ -7209,7 +7393,7 @@ If the anatomical location is included in the Problem/diagnosis name via precoor
                     <items id="comment">For example, the name of the form.</items>
                 </term_definitions>
                 <term_definitions code="at0033">
-                    <items id="text">Other patient information handed to subject</items>
+                    <items id="text">Other patient information given to subject</items>
                     <items id="description">Details about Patient Information made available to the subject or subject's agent.</items>
                 </term_definitions>
                 <term_definitions code="at0035">
