@@ -34,5 +34,17 @@ openEHR-EHR-CLUSTER.pp_phenopacket_framework.v0
 openEHR-EHR-CLUSTER.proband_or_relative_selection.v0 (locally created archetype)
 ```
 
+## TODO:
+Record structured info in form instead of PDF/paper (Possibly generate PDF afterwards.)
 
+Sources to explore:
+* http://www.analysportalen-labmedicin.skane.se/viewAnalys.asp?Nr=2776
+* https://www.sahlgrenska.se/for-dig-som-ar/vardgivare/laboratoriemedicin/analyslistan/helexom/
+* https://www.sahlgrenska.se/for-dig-som-ar/vardgivare/laboratoriemedicin/analyslistan/helgenom/
+
+* Consent forms & extra patient info (GMS etc)
+
+Digitize HPO phenotype selections from e.g. 
+* Page 2 of http://analysportalen-labmedicin.skane.se/pics/Labmedicin/Verksamhetsomr%E5den/Klinisk%20genetik/Analysportalen/Remiss%20helgenomsekvensering%20(WGS)%20-%20konstitutionell%20utredning.pdf
+* Checklista Klinisk genetik https://sahlgrenska-klinkem-analyser.vgregion.se/KGAP0173.pdf 
 
