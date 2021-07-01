@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "11.2.0",
+      "sem_ver" : "11.3.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "403c6280f5d5602d393cc2b9fc00947a",
+      "MD5-CAM-1.0.1" : "5690fbbff58993c28a3ebfec1618831c",
       "PARENT:MD5-CAM-1.0.1" : "B8AD0C7EB492491CE6F7968C1AFFB40C"
     },
     "details" : {
@@ -952,7 +952,7 @@
           "at0033.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0033.1",
-            "text" : "Other patient information handed to subject",
+            "text" : "Other patient information given to subject",
             "description" : "Details about Patient Information made available to the subject or subject's agent."
           }
         },
