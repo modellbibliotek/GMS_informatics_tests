@@ -24,7 +24,7 @@
       "custodian_namespace" : "",
       "sem_ver" : "16.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "8e784178e88953c1093f33d1c58da248",
+      "MD5-CAM-1.0.1" : "c1fc394a36c18fc1647e9fe4c2b7a9ba",
       "PARENT:MD5-CAM-1.0.1" : "B8AD0C7EB492491CE6F7968C1AFFB40C"
     },
     "details" : {
@@ -1274,7 +1274,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "2cafd45e324e1ea3c816063f89d0d2df"
+        "PARENT:MD5-CAM-1.0.1" : "983ff544264d00ae79f8ba9ace961d9f"
       },
       "details" : {
         "en" : {
@@ -2389,7 +2389,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "2cafd45e324e1ea3c816063f89d0d2df"
+        "PARENT:MD5-CAM-1.0.1" : "983ff544264d00ae79f8ba9ace961d9f"
       },
       "details" : {
         "en" : {
@@ -3361,7 +3361,39 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "49416B688C854631A793F94F2F4CA0A1"
       },
-      "details" : { }
+      "details" : {
+        "nb" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "nb"
+          },
+          "purpose" : "For å registrere detaljer om en person i en pasientjournal.",
+          "keywords" : [ "organisasjon, tjenesteyter, helsepersonell, omorgsperson" ],
+          "use" : "Brukes for å registrere detaljer om en person i en pasientjournal.\r\n\r\nFor eksempel:\r\n- navn og kontaktdetaljer til en person som har en kopi av et fremtidige behandlingsvalg.\r\n- navn og kontaktdetaljer til en omsorgsperson eller helsepersonell i en henvisning.\r\n- navn, rolle og kontaktdetaljer til et medlem av et behandlingsteam.\r\n- rolle og kontaktdetaljer til en navngitt kontaktperson i en organisasjon.\r\n- detaljer om en slektning i en familieanamnese.\r\n- detaljer om et vitne til et epileptisk anfall.\r\n\r\nDenne arketypen kan også brukes som en midlertidig erstatning for formelle demografiske data når man gjennomgår et templat med domeneeksperter - for eksempel en vurdering der man i templatet forventer å se detaljer om et individ på toppen av vurderingsskjema.\r\n\r\nI tilfeller der arketypen CLUSTER.structured_name er lagt i SLOTet \"Strukturert navn\", kan noen eller alle de strukturerte navnelementene kobles sammen og vises i dataelementet \"Navn\".",
+          "misuse" : "Brukes ikke til å representere eller erstatte de formelle demografiske detaljene for formell identitetsforvaltning eller for å opprettholde et demografisk register eller en indeks. Bruk formelle pasientregister, helsepersonellregister eller arketyper basert på openEHR demografisk informasjonsmodell til dette formålet.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "purpose" : "To record details about a person who needs to be represented within the health record.",
+          "keywords" : [ "organisation, provider, carer" ],
+          "use" : "Use to record details about a person who needs to be represented within the health record. Examples include:\r\n- the name and contact details for a person who holds a physical copy of an advanced care record;\r\n- the name and contact details of a carer in a referral; \r\n- the name, role and contact details of a member of a care team;\r\n- the role and contact details of a named contact person within an organisation;\r\n- details about a relative in a family history record; or\r\n- a witness to an epileptic fit.\r\n\r\nThis archetype could also be used as a proxy for formal demographic data when reviewing a template with domain experts - for example, an assessment where reviewers would expect to see the individual's details at the top of the assessment form.\r\n\r\nIf the CLUSTER.structured_name archetype is nested within the 'Structured name' SLOT, any or all of the structured name elements can be concatenated and represented in the 'Name line' element.",
+          "misuse" : "Not to be used to represent or replace the formal demographic details for formal identification management or for the purposes of maintaining a demographic register or index. Use a formal Master Patient Index or Healthcare Provider Index for this purpose, or archetypes based on the openEHR Demographic Information Model.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-CLUSTER.person.v0",
     "differential" : true,
@@ -3427,7 +3459,39 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "49416B688C854631A793F94F2F4CA0A1"
       },
-      "details" : { }
+      "details" : {
+        "nb" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "nb"
+          },
+          "purpose" : "For å registrere detaljer om en person i en pasientjournal.",
+          "keywords" : [ "organisasjon, tjenesteyter, helsepersonell, omorgsperson" ],
+          "use" : "Brukes for å registrere detaljer om en person i en pasientjournal.\r\n\r\nFor eksempel:\r\n- navn og kontaktdetaljer til en person som har en kopi av et fremtidige behandlingsvalg.\r\n- navn og kontaktdetaljer til en omsorgsperson eller helsepersonell i en henvisning.\r\n- navn, rolle og kontaktdetaljer til et medlem av et behandlingsteam.\r\n- rolle og kontaktdetaljer til en navngitt kontaktperson i en organisasjon.\r\n- detaljer om en slektning i en familieanamnese.\r\n- detaljer om et vitne til et epileptisk anfall.\r\n\r\nDenne arketypen kan også brukes som en midlertidig erstatning for formelle demografiske data når man gjennomgår et templat med domeneeksperter - for eksempel en vurdering der man i templatet forventer å se detaljer om et individ på toppen av vurderingsskjema.\r\n\r\nI tilfeller der arketypen CLUSTER.structured_name er lagt i SLOTet \"Strukturert navn\", kan noen eller alle de strukturerte navnelementene kobles sammen og vises i dataelementet \"Navn\".",
+          "misuse" : "Brukes ikke til å representere eller erstatte de formelle demografiske detaljene for formell identitetsforvaltning eller for å opprettholde et demografisk register eller en indeks. Bruk formelle pasientregister, helsepersonellregister eller arketyper basert på openEHR demografisk informasjonsmodell til dette formålet.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "purpose" : "To record details about a person who needs to be represented within the health record.",
+          "keywords" : [ "organisation, provider, carer" ],
+          "use" : "Use to record details about a person who needs to be represented within the health record. Examples include:\r\n- the name and contact details for a person who holds a physical copy of an advanced care record;\r\n- the name and contact details of a carer in a referral; \r\n- the name, role and contact details of a member of a care team;\r\n- the role and contact details of a named contact person within an organisation;\r\n- details about a relative in a family history record; or\r\n- a witness to an epileptic fit.\r\n\r\nThis archetype could also be used as a proxy for formal demographic data when reviewing a template with domain experts - for example, an assessment where reviewers would expect to see the individual's details at the top of the assessment form.\r\n\r\nIf the CLUSTER.structured_name archetype is nested within the 'Structured name' SLOT, any or all of the structured name elements can be concatenated and represented in the 'Name line' element.",
+          "misuse" : "Not to be used to represent or replace the formal demographic details for formal identification management or for the purposes of maintaining a demographic register or index. Use a formal Master Patient Index or Healthcare Provider Index for this purpose, or archetypes based on the openEHR Demographic Information Model.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-CLUSTER.person.v0",
     "differential" : true,
@@ -3506,7 +3570,39 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "9C63D895D4AEBB90E7639445124A3C44"
       },
-      "details" : { }
+      "details" : {
+        "nb" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "nb"
+          },
+          "purpose" : "For å registrere detaljer om en organisasjon i en pasientjournal.",
+          "keywords" : [ "organisasjon, helsetjenestetilbyder, omsorgsperson" ],
+          "use" : "Brukes for å registrere detaljer om en organisasjon i en pasientjournal. \r\n\r\nFor eksempel:\r\n- navn og kontaktdetaljer for en organisasjon som har en kopi av et fremtidige behandlingsvalg.\r\n- navn på hjemmetjenesteorganisasjon eller en annen helsetjenesteyter.\r\n- navn, rolle og kontaktdetaljer til et medlem av et omsorgsteam.\r\n\r\nI denne konteksten kan registreringen av en organisasjons kontaktdetaljer, eller person i organisasjonen, være uformell og fleksibel så lenge det tjener formålet. \r\nFor eksempel:\r\n- et sykehus\r\n- en spesialavdeling i et sykehus eller et tilknyttet hjemmesykehus eller hjemmetjeneste. \r\n\r\nDenne arketypen kan også brukes som en midlertidig erstatning for formelle demografiske data når man gjennomgår et templat med domeneeksperter - for eksempel en vurdering der man i templatet forventer å se detaljer om et individ på toppen av vurderingsskjema.",
+          "misuse" : "Brukes ikke til å representere eller erstatte de formelle demografiske detaljene for formell identitetsforvaltning eller for å opprettholde et demografisk register eller en indeks. Bruk formelle pasientregister, helsepersonellregister eller arketyper basert på openEHR demografisk informasjonsmodell til dette formålet.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "purpose" : "To record details about an organisation that needs to be represented within the health record.",
+          "keywords" : [ "organisation, provider, carer" ],
+          "use" : "Use to record details about an organisation that needs to be represented within the health record. Examples include:\r\n- the name and contact details for an organisation that holds a physical copy of an advanced care record;\r\n- the name and contact details of a visiting home care organisation in a practice-to-practice transfer of medical record; or\r\n- the name, role and contact details of a member of a care team.\r\n\r\nIn this context of recording an organisation's contact details or people within the organisation, the scope of an 'organisation' can be informal and flexible, as long as it serves the purpose. For example:\r\n- a hospital; or\r\n- a 'sub organisation' of a hospital, such as an operationally separate or specialised satellite clinic of a hospital or an associated home care service.\r\n\r\nThis archetype could also be used as a proxy for formal demographic data when reviewing a template with domain experts - for example, an assessment where reviewers would expect to see an organisations' details on an assessment form.",
+          "misuse" : "Not to be used to represent or replace the formal demographic details for formal identification management or for the purposes of maintaining a demographic register or index. Use a formal Healthcare Provider Index for this purpose, or archetypes based on the openEHR Demographic Information Model.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-CLUSTER.organisation.v0",
     "differential" : true,
@@ -3572,7 +3668,39 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "9C63D895D4AEBB90E7639445124A3C44"
       },
-      "details" : { }
+      "details" : {
+        "nb" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "nb"
+          },
+          "purpose" : "For å registrere detaljer om en organisasjon i en pasientjournal.",
+          "keywords" : [ "organisasjon, helsetjenestetilbyder, omsorgsperson" ],
+          "use" : "Brukes for å registrere detaljer om en organisasjon i en pasientjournal. \r\n\r\nFor eksempel:\r\n- navn og kontaktdetaljer for en organisasjon som har en kopi av et fremtidige behandlingsvalg.\r\n- navn på hjemmetjenesteorganisasjon eller en annen helsetjenesteyter.\r\n- navn, rolle og kontaktdetaljer til et medlem av et omsorgsteam.\r\n\r\nI denne konteksten kan registreringen av en organisasjons kontaktdetaljer, eller person i organisasjonen, være uformell og fleksibel så lenge det tjener formålet. \r\nFor eksempel:\r\n- et sykehus\r\n- en spesialavdeling i et sykehus eller et tilknyttet hjemmesykehus eller hjemmetjeneste. \r\n\r\nDenne arketypen kan også brukes som en midlertidig erstatning for formelle demografiske data når man gjennomgår et templat med domeneeksperter - for eksempel en vurdering der man i templatet forventer å se detaljer om et individ på toppen av vurderingsskjema.",
+          "misuse" : "Brukes ikke til å representere eller erstatte de formelle demografiske detaljene for formell identitetsforvaltning eller for å opprettholde et demografisk register eller en indeks. Bruk formelle pasientregister, helsepersonellregister eller arketyper basert på openEHR demografisk informasjonsmodell til dette formålet.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "purpose" : "To record details about an organisation that needs to be represented within the health record.",
+          "keywords" : [ "organisation, provider, carer" ],
+          "use" : "Use to record details about an organisation that needs to be represented within the health record. Examples include:\r\n- the name and contact details for an organisation that holds a physical copy of an advanced care record;\r\n- the name and contact details of a visiting home care organisation in a practice-to-practice transfer of medical record; or\r\n- the name, role and contact details of a member of a care team.\r\n\r\nIn this context of recording an organisation's contact details or people within the organisation, the scope of an 'organisation' can be informal and flexible, as long as it serves the purpose. For example:\r\n- a hospital; or\r\n- a 'sub organisation' of a hospital, such as an operationally separate or specialised satellite clinic of a hospital or an associated home care service.\r\n\r\nThis archetype could also be used as a proxy for formal demographic data when reviewing a template with domain experts - for example, an assessment where reviewers would expect to see an organisations' details on an assessment form.",
+          "misuse" : "Not to be used to represent or replace the formal demographic details for formal identification management or for the purposes of maintaining a demographic register or index. Use a formal Healthcare Provider Index for this purpose, or archetypes based on the openEHR Demographic Information Model.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-CLUSTER.organisation.v0",
     "differential" : true,
