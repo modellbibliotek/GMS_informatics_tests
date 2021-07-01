@@ -26,7 +26,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"c187b27ae0a684c040fa7b9654424c4f">
+		["MD5-CAM-1.0.1"] = <"2cafd45e324e1ea3c816063f89d0d2df">
 		["build_uid"] = <"8b96d391-9b42-396c-9033-9aa439dfbdbe">
 	>
 
@@ -45,11 +45,17 @@ definition
 					}
 				}
 			}
+			ELEMENT[at0009] occurrences matches {0..1} matches {    -- Relation to proband
+				value matches {
+					DV_CODED_TEXT matches {*}
+				}
+			}
 			ELEMENT[at0007] occurrences matches {0..1} matches {    -- Requester order identifier of proband
 				value matches {
 					DV_IDENTIFIER matches {*}
 				}
 			}
+			CLUSTER[at0010] occurrences matches {0..1} matches {*}    -- Extension
 			ELEMENT[at0008] occurrences matches {0..1} matches {    -- Receiver order identifier of proband
 				value matches {
 					DV_IDENTIFIER matches {*}
@@ -88,6 +94,14 @@ ontology
 				>
 				["at0008"] = <
 					text = <"Receiver order identifier of proband">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"Relation to proband">
+					description = <"">
+				>
+				["at0010"] = <
+					text = <"Extension">
 					description = <"">
 				>
 			>
