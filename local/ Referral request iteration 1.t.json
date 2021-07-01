@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "12.0.0",
+      "sem_ver" : "13.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "2c39315ef006a6192e3176195f6b0b49",
+      "MD5-CAM-1.0.1" : "935acaae4265db02ff1111b1e57ac06a",
       "PARENT:MD5-CAM-1.0.1" : "B8AD0C7EB492491CE6F7968C1AFFB40C"
     },
     "details" : {
@@ -1574,10 +1574,19 @@
                   "@type" : "C_TERMINOLOGY_CODE",
                   "rmTypeName" : "TERMINOLOGY_CODE",
                   "terminologyId" : {
-                    "value" : "ICD10"
+                    "value" : "terminology:omim"
                   },
-                  "constraint" : [ "ac0.1" ],
-                  "selectedTerminologies" : [ "ICD10" ]
+                  "constraint" : [ ],
+                  "selectedTerminologies" : [ "terminology:omim" ],
+                  "includedExternalTerminologyCodes" : [ {
+                    "terminologyId" : "terminology:omim",
+                    "code" : "614022",
+                    "value" : "Atrial Fibrillation, Familial, 10"
+                  }, {
+                    "terminologyId" : "terminology:omim",
+                    "code" : "600309",
+                    "value" : "Atrioventricular septal defect 3"
+                  } ]
                 } ]
               } ],
               "attributeTuples" : [ ]
@@ -1722,13 +1731,20 @@
       "termDefinitions" : {
         "en" : { }
       },
-      "termBindings" : {
-        "ICD10" : {
-          "ac0.1" : "terminology:ICD10"
-        }
-      },
+      "termBindings" : { },
       "terminologyExtracts" : { },
-      "valueSets" : { }
+      "valueSets" : {
+        "ac0.2" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.2",
+          "members" : [ "ac0.1" ]
+        },
+        "ac0.3" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.3",
+          "members" : [ "ac0.1" ]
+        }
+      }
     },
     "adlVersion" : "1.4",
     "buildUid" : "ade68c52-fbd1-49db-b0b8-dcff5f569868",
@@ -1984,10 +2000,19 @@
                       "@type" : "C_TERMINOLOGY_CODE",
                       "rmTypeName" : "TERMINOLOGY_CODE",
                       "terminologyId" : {
-                        "value" : "ICD10"
+                        "value" : "terminology:ICD-10"
                       },
-                      "constraint" : [ "ac0.1" ],
-                      "selectedTerminologies" : [ "ICD10" ]
+                      "constraint" : [ ],
+                      "selectedTerminologies" : [ "terminology:ICD-10" ],
+                      "includedExternalTerminologyCodes" : [ {
+                        "terminologyId" : "terminology:ICD-10",
+                        "code" : "G44.311",
+                        "value" : "Acute post traumatic headache, intractable"
+                      }, {
+                        "terminologyId" : "terminology:ICD-10",
+                        "code" : "I40.0",
+                        "value" : "Infektiös myokardit"
+                      } ]
                     } ]
                   } ],
                   "attributeTuples" : [ ]
@@ -2047,15 +2072,23 @@
         "nl" : { }
       },
       "termBindings" : {
-        "ICD10" : {
-          "ac0.1" : "terminology:ICD10"
-        },
         "bodySite" : {
           "ac0.2" : "terminology:bodySite"
         }
       },
       "terminologyExtracts" : { },
-      "valueSets" : { }
+      "valueSets" : {
+        "ac0.3" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.3",
+          "members" : [ "ac0.1" ]
+        },
+        "ac0.4" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.4",
+          "members" : [ "ac0.1" ]
+        }
+      }
     },
     "adlVersion" : "1.4",
     "buildUid" : "b10b572f-a16a-43cb-b61f-d62d5c572ac1",
@@ -3061,10 +3094,19 @@
                   "@type" : "C_TERMINOLOGY_CODE",
                   "rmTypeName" : "TERMINOLOGY_CODE",
                   "terminologyId" : {
-                    "value" : "phenotypeHF"
+                    "value" : "terminology:omim"
                   },
-                  "constraint" : [ "ac0.1" ],
-                  "selectedTerminologies" : [ "phenotypeHF" ]
+                  "constraint" : [ ],
+                  "selectedTerminologies" : [ "terminology:omim" ],
+                  "includedExternalTerminologyCodes" : [ {
+                    "terminologyId" : "terminology:omim",
+                    "code" : "614022",
+                    "value" : "Atrial Fibrillation, Familial, 10"
+                  }, {
+                    "terminologyId" : "terminology:omim",
+                    "code" : "600309",
+                    "value" : "Atrioventricular septal defect 3"
+                  } ]
                 } ]
               } ],
               "attributeTuples" : [ ]
@@ -3247,13 +3289,20 @@
           }
         }
       },
-      "termBindings" : {
-        "phenotypeHF" : {
-          "ac0.1" : "terminology:phenotypeHF"
-        }
-      },
+      "termBindings" : { },
       "terminologyExtracts" : { },
-      "valueSets" : { }
+      "valueSets" : {
+        "ac0.2" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.2",
+          "members" : [ "ac0.1" ]
+        },
+        "ac0.3" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.3",
+          "members" : [ "ac0.1" ]
+        }
+      }
     },
     "adlVersion" : "1.4",
     "buildUid" : "5f73a077-2e72-3d5c-942c-ece97265c2dc",
