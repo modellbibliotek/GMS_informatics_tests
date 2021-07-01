@@ -1,0 +1,277 @@
+{
+  "@type" : "TEMPLATE",
+  "uid" : "0c7514ac-e45f-4e30-9f8e-1e0424e15c7c",
+  "description" : {
+    "@type" : "RESOURCE_DESCRIPTION",
+    "originalAuthor" : {
+      "name" : "Erik Sundvall",
+      "organisation" : "Region Östergötland & Linköping University, Sweden",
+      "email" : "erik.sundvall@regionostergotland.se",
+      "date" : "2021-07-01"
+    },
+    "otherContributors" : [ ],
+    "lifecycleState" : {
+      "codeString" : "unmanaged"
+    },
+    "ipAcknowledgements" : { },
+    "references" : { },
+    "conversionDetails" : { },
+    "otherDetails" : {
+      "licence" : "",
+      "custodian_organisation" : "",
+      "original_namespace" : "",
+      "original_publisher" : "",
+      "custodian_namespace" : "",
+      "sem_ver" : "0.1.0",
+      "build_uid" : "",
+      "MD5-CAM-1.0.1" : "933205308feb3e13d906ab4a3b3a8fc6",
+      "PARENT:MD5-CAM-1.0.1" : "E9291020A69DDE3E146C4E2851A40437"
+    },
+    "details" : {
+      "en" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "en"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      }
+    }
+  },
+  "parentArchetypeId" : "openEHR-EHR-CLUSTER.pp_phenotypic_feature.v0",
+  "differential" : true,
+  "archetypeId" : {
+    "@type" : "ARCHETYPE_HRID",
+    "value" : "openEHR-EHR-CLUSTER.t_pp_phenotypic_feature.v0"
+  },
+  "definition" : {
+    "@type" : "C_COMPLEX_OBJECT",
+    "rmTypeName" : "CLUSTER",
+    "nodeId" : "at0000.1",
+    "attributes" : [ {
+      "@type" : "C_ATTRIBUTE",
+      "rmAttributeName" : "items",
+      "children" : [ {
+        "@type" : "C_COMPLEX_OBJECT",
+        "rmTypeName" : "ELEMENT",
+        "nodeId" : "at0002.1",
+        "attributes" : [ {
+          "@type" : "C_ATTRIBUTE",
+          "rmAttributeName" : "value",
+          "children" : [ {
+            "@type" : "C_COMPLEX_OBJECT",
+            "rmTypeName" : "DV_CODED_TEXT",
+            "attributes" : [ {
+              "@type" : "C_ATTRIBUTE",
+              "rmAttributeName" : "defining_code",
+              "children" : [ {
+                "@type" : "C_TERMINOLOGY_CODE",
+                "rmTypeName" : "TERMINOLOGY_CODE",
+                "constraint" : [ ],
+                "selectedTerminologies" : [ ]
+              } ]
+            } ],
+            "attributeTuples" : [ ]
+          } ]
+        } ],
+        "attributeTuples" : [ ]
+      }, {
+        "@type" : "C_COMPLEX_OBJECT",
+        "rmTypeName" : "ELEMENT",
+        "nodeId" : "at0003.1",
+        "attributes" : [ {
+          "@type" : "C_ATTRIBUTE",
+          "rmAttributeName" : "value",
+          "children" : [ {
+            "@type" : "C_COMPLEX_OBJECT",
+            "rmTypeName" : "DV_BOOLEAN",
+            "attributes" : [ {
+              "@type" : "C_ATTRIBUTE",
+              "rmAttributeName" : "value",
+              "children" : [ {
+                "@type" : "C_BOOLEAN",
+                "rmTypeName" : "BOOLEAN",
+                "occurrences" : "1..1",
+                "assumedValue" : false,
+                "constraint" : [ ]
+              } ]
+            } ],
+            "attributeTuples" : [ ]
+          } ]
+        } ],
+        "attributeTuples" : [ ]
+      }, {
+        "@type" : "C_COMPLEX_OBJECT",
+        "rmTypeName" : "ELEMENT",
+        "nodeId" : "at0004.1",
+        "attributes" : [ {
+          "@type" : "C_ATTRIBUTE",
+          "rmAttributeName" : "value",
+          "children" : [ {
+            "@type" : "C_COMPLEX_OBJECT",
+            "rmTypeName" : "DV_CODED_TEXT",
+            "attributes" : [ {
+              "@type" : "C_ATTRIBUTE",
+              "rmAttributeName" : "defining_code",
+              "children" : [ {
+                "@type" : "C_TERMINOLOGY_CODE",
+                "rmTypeName" : "TERMINOLOGY_CODE",
+                "terminologyId" : {
+                  "value" : "terminology:hpo"
+                },
+                "constraint" : [ ],
+                "selectedTerminologies" : [ "terminology:hpo" ],
+                "includedExternalTerminologyCodes" : [ {
+                  "terminologyId" : "terminology:hpo",
+                  "code" : "0012825",
+                  "value" : "Mild"
+                }, {
+                  "terminologyId" : "terminology:hpo",
+                  "code" : "0012826",
+                  "value" : "Moderate"
+                }, {
+                  "terminologyId" : "terminology:hpo",
+                  "code" : "0012827",
+                  "value" : "Borderline"
+                }, {
+                  "terminologyId" : "terminology:hpo",
+                  "code" : "0012828",
+                  "value" : "Severe"
+                }, {
+                  "terminologyId" : "terminology:hpo",
+                  "code" : "0012829",
+                  "value" : "Profound"
+                } ]
+              } ]
+            } ],
+            "attributeTuples" : [ ]
+          } ]
+        } ],
+        "attributeTuples" : [ ]
+      }, {
+        "@type" : "C_COMPLEX_OBJECT",
+        "rmTypeName" : "ELEMENT",
+        "nodeId" : "at0005.1",
+        "attributes" : [ {
+          "@type" : "C_ATTRIBUTE",
+          "rmAttributeName" : "value",
+          "children" : [ {
+            "@type" : "C_COMPLEX_OBJECT",
+            "rmTypeName" : "DV_CODED_TEXT",
+            "attributes" : [ {
+              "@type" : "C_ATTRIBUTE",
+              "rmAttributeName" : "defining_code",
+              "children" : [ {
+                "@type" : "C_TERMINOLOGY_CODE",
+                "rmTypeName" : "TERMINOLOGY_CODE",
+                "terminologyId" : {
+                  "value" : "local_terms"
+                },
+                "constraint" : [ ],
+                "selectedTerminologies" : [ ]
+              } ]
+            } ],
+            "attributeTuples" : [ ]
+          } ]
+        } ],
+        "attributeTuples" : [ ]
+      }, {
+        "@type" : "C_COMPLEX_OBJECT",
+        "rmTypeName" : "ELEMENT",
+        "nodeId" : "at0006.1",
+        "attributes" : [ {
+          "@type" : "C_ATTRIBUTE",
+          "rmAttributeName" : "value",
+          "children" : [ {
+            "@type" : "C_COMPLEX_OBJECT",
+            "rmTypeName" : "DV_CODED_TEXT",
+            "attributes" : [ {
+              "@type" : "C_ATTRIBUTE",
+              "rmAttributeName" : "defining_code",
+              "children" : [ {
+                "@type" : "C_TERMINOLOGY_CODE",
+                "rmTypeName" : "TERMINOLOGY_CODE",
+                "terminologyId" : {
+                  "value" : "terminology:hpo"
+                },
+                "constraint" : [ ],
+                "selectedTerminologies" : [ "terminology:hpo" ],
+                "includedExternalTerminologyCodes" : [ {
+                  "terminologyId" : "terminology:hpo",
+                  "code" : "0410280",
+                  "value" : "Pediatric onset"
+                }, {
+                  "terminologyId" : "terminology:hpo",
+                  "code" : "0003581",
+                  "value" : "Adult onset"
+                }, {
+                  "terminologyId" : "terminology:hpo",
+                  "code" : "0030674",
+                  "value" : "Antenatal onset"
+                }, {
+                  "terminologyId" : "terminology:hpo",
+                  "code" : "0003623",
+                  "value" : "Neonatal onset"
+                }, {
+                  "terminologyId" : "terminology:hpo",
+                  "code" : "4000040",
+                  "value" : "Puerpural onset"
+                }, {
+                  "terminologyId" : "terminology:hpo",
+                  "code" : "0003577",
+                  "value" : "Congenital onset"
+                } ]
+              } ]
+            } ],
+            "attributeTuples" : [ ]
+          } ]
+        } ],
+        "attributeTuples" : [ ]
+      } ]
+    } ],
+    "attributeTuples" : [ ]
+  },
+  "terminology" : {
+    "@type" : "ARCHETYPE_TERMINOLOGY",
+    "conceptCode" : "at0000",
+    "termDefinitions" : {
+      "en" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "pp_phenotypic_feature_with_terminology",
+          "description" : "Phenotypic feature"
+        },
+        "at0002.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0002.1",
+          "text" : "type",
+          "description" : "*",
+          "comment" : "For example: \"HP::0000520|Proptosis\".\n\nAdd terminology server query!"
+        }
+      }
+    },
+    "termBindings" : { },
+    "terminologyExtracts" : { },
+    "valueSets" : { }
+  },
+  "adlVersion" : "1.4",
+  "buildUid" : "5f73a077-2e72-3d5c-942c-ece97265c2dc",
+  "rmName" : "openehr",
+  "rmRelease" : "1.1.0",
+  "generated" : true,
+  "templateId" : "pp_phenotypic_feature_with_terminology",
+  "otherMetaData" : { },
+  "templateOverlays" : [ ],
+  "originalLanguage" : {
+    "terminologyId" : {
+      "value" : "ISO_639-1"
+    },
+    "codeString" : "en"
+  },
+  "translations" : [ ]
+}
